@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.side{
+    height: 809px;
+    width: 68px;
+    position: relative;
+}
+.Barsline{
+    position: absolute;
+    left: 19px;
+    top: 19px;
+}
+.SideIcons{
+    position: absolute;
+    width: Hug (49px)px;
+    height: Hug (205px)px;
+    top: 77px;
+    left: 19px;
+}
+.Icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.frame7{
+    font-size: 9px;
+    font-weight: bolder;
+}
+.header{
+    height: 120px;
+    width:100vw;
+    top: 112px;
+    left: 68px;
+}
+.Main{
+    display: flex;
+}
+.YtLogo{
+    position: absolute;
+    left: 70px;
+    top: 22px;
+}
+.headicon{
+    display: flex;
+    display: flex inline-block;
+    list-style-type: none;
+    justify-content: end;
+    gap: 24px;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.MidIcon{
+    margin-top: 15px;
+}
+.FirstIcon{
+    margin-top: 9px;
+}
+.LastIcon{
+    margin-top: 15px;
+}
+.Searching{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Speaker{
+    height: 30px;
+    width: 30px;
+    border-radius: 500px;
+    border: 2px solid black;
+    margin-left: 70px;
+    background-color: rgba(20, 16, 16, 0.269);
+}
+.Mid{
+    height: 10vh;
+    width: 80vw;
+    position: relative;
+}
+.Midicons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom:10px;
+    left: 50px;
+}
+.icon1{
+    height: 20px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.icon4{
+    width: 100px;
+}
+.footer{
+    width: 90vw;
+    height: 50vw;
+    background-color: rgba(128, 128, 128, 0.226);
+    margin-top: 15px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+.video{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.content{
+    margin-top: 2px;
+    height: 20px;
+    width: 255px;
+    display: flex;
+    gap: 20px;
+}
+.Circle{
+    height: 30px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 600px;
+}
+.Description{
+    font-size: 15px;
+    font-weight: 700;
+}
